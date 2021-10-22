@@ -21,8 +21,16 @@ public class Operations
 		return a*b;
 	}
 
-	public static double puissance(int base, int exp)
+	public static int puissance(int base, int exp)
 	{
-		return Math.pow(base, exp);
+		int number = 1;
+		for(int i=1;i<=exp;i++) {
+				number =  base*number;
+			 
+
+		}
+
+		return number;
+				
 	}
 }
