@@ -3,26 +3,26 @@ public class Operations
 {
 	public static int succ(int x)
 	{
-		return 0;
+		return x+1;
 	}
 
 	public static int pred(int x)
 	{
-		return 0;
+		return x-1;
 	}
 
 	public static int somme(int a, int b)
 	{
-		return 0;
+		return a+b;
 	}
 
 	public static int produit(int a, int b)
 	{
-		return 0;
+		return a*b;
 	}
 
-	public static int puissance(int base, int exp)
+	public static double puissance(int base, int exp)
 	{
-		return 0;
+		return Math.pow(base, exp);
 	}
 }
